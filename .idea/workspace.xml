@@ -1,7 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4198b291-a623-4414-99c8-079adb6b76fa" name="Changes" comment="" />
+    <list default="true" id="4198b291-a623-4414-99c8-079adb6b76fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/10-bdl-benchmarks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/intel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/oatml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/oxcs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/turing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/deep_ensembles/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/deep_ensembles/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/deep_ensembles/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/deterministic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/deterministic/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/deterministic/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/ensemble_mc_dropout/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/ensemble_mc_dropout/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/ensemble_mc_dropout/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/mc_dropout/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/mc_dropout/configs/medium.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/mc_dropout/configs/realworld.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/mc_dropout/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/mc_dropout/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/mfvi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/mfvi/configs/medium.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/mfvi/configs/realworld.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/mfvi/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baselines/diabetic_retinopathy_diagnosis/mfvi/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdlb/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdlb/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdlb/core/benchmark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdlb/core/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdlb/core/levels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdlb/core/plotting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdlb/core/registered.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdlb/core/transforms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdlb/diabetic_retinopathy_diagnosis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdlb/diabetic_retinopathy_diagnosis/benchmark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdlb/diabetic_retinopathy_diagnosis/tfds_adapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/aptos2019/accuracy/deep_ensemble.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/aptos2019/accuracy/deterministic.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/aptos2019/accuracy/ensemble_mc_dropout.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/aptos2019/accuracy/mc_dropout.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/aptos2019/accuracy/mfvi.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/aptos2019/accuracy/random.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/aptos2019/auc/deep_ensemble.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/aptos2019/auc/deterministic.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/aptos2019/auc/ensemble_mc_dropout.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/aptos2019/auc/mc_dropout.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/aptos2019/auc/mfvi.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/aptos2019/auc/random.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/diabetic_retinopathy_diagnosis/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/diabetic_retinopathy_diagnosis/accuracy/deep_ensemble.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/diabetic_retinopathy_diagnosis/accuracy/deterministic.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/diabetic_retinopathy_diagnosis/accuracy/ensemble_mc_dropout.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/diabetic_retinopathy_diagnosis/accuracy/mc_dropout.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/diabetic_retinopathy_diagnosis/accuracy/mfvi.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/diabetic_retinopathy_diagnosis/accuracy/random.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/diabetic_retinopathy_diagnosis/auc/deep_ensemble.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/diabetic_retinopathy_diagnosis/auc/deterministic.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/diabetic_retinopathy_diagnosis/auc/ensemble_mc_dropout.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/diabetic_retinopathy_diagnosis/auc/mc_dropout.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/diabetic_retinopathy_diagnosis/auc/mfvi.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/diabetic_retinopathy_diagnosis/auc/random.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/pretraining/accuracy/deterministic.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/pretraining/accuracy/mc_dropout.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/pretraining/accuracy/random.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/pretraining/auc/deterministic.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/pretraining/auc/mc_dropout.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaderboard/pretraining/auc/random.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/diabetic_retinopathy_diagnosis.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +104,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "alpha",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/UNIVERSITY/NCKH/8_code",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -47,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751522013141</updated>
-      <workItem from="1751522014210" duration="445000" />
+      <workItem from="1751522014210" duration="837000" />
     </task>
     <servers />
   </component>
